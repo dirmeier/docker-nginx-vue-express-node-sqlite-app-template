@@ -1,0 +1,13 @@
+language: node_js
+
+services:
+  - docker
+
+install:
+  - docker-compose up -d nginx
+
+script:
+  - docker ps | grep nginx
+  - docker ps | grep webapp
+  - curl localhost:80
+  - curl localhost:4000

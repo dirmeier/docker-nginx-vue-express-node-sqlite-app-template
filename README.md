@@ -1,6 +1,7 @@
 # A docker-nginx-vue-express-node-sqlite webapp
 
 [![Project Status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
+[![Build Status](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app.svg?branch=master)](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app)
 
 A template for a web-app.
 
