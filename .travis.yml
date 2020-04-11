@@ -1,9 +1,12 @@
 language: node_js
-
+node_js:
+  - 13
+  
 services:
   - docker
 
 install:
+  - npm install -g codecov
   - docker-compose up -d nginx
 
 script:
@@ -11,3 +14,7 @@ script:
   - docker ps | grep webapp
   - curl localhost:80
   - curl localhost:4000
+
+after_script:
+  - codecov
+  - bash <(curl -s https://codecov.io/bash) 
