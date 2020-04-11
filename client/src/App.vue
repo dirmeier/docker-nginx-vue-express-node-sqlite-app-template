@@ -11,6 +11,8 @@ import ft from "@/components/Footer.vue";
 import navigation from "@/components/Navigation.vue";
 
 export default {
+  name: "Webapp",
+  title: name,
   components: {
     ft,
     navigation
@@ -19,10 +21,10 @@ export default {
 </script>
 
 <style>
-@import "../../node_modules/bulma/css/bulma.min.css";
+@import "./assets/css/bulma.min.css";
 
 body {
-  background-color: black !important;
+  background: black !important;
   color: white !important;
   min-height: 1000px;
   font-family: "Times New Roman", Times, serif;
@@ -35,8 +37,7 @@ h2 {
 
 table,
 th {
-  background-color: black !important;
-  background: black;
+  background: black !important;
   color: white !important;
 }
 </style>

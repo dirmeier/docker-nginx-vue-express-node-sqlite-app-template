@@ -54,6 +54,19 @@ Start again using
 docker-compose up -d nginx
 ```
 
+You can also just build the Dockerfile and use your own server
+
+```bash
+docker build -t webapp:0.1.0 .
+docker run --name webapp -d -p 4000:4000 webapp:0.1.0
+```
+
+Later to stop
+
+```bash
+docker stop webapp
+```
+
 ## Author
 
 Simon Dirmeier <a href="mailto:simon.dirmeier @ web.de">simon.dirmeier @ web.de</a>

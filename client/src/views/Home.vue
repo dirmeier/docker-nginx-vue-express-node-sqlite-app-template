@@ -8,9 +8,16 @@
 import home from "@/components/Home.vue";
 
 export default {
-  name: "Home",
   components: {
     home
+  },
+  watch: {
+    title: {
+      immediate: true,
+      handler() {
+        document.title = "Home";
+      }
+    }
   }
 };
 </script>

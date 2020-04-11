@@ -6,7 +6,7 @@ services:
     depends_on:
       - webapp
     volumes:
-      - ./conf.d/default_docker:/etc/nginx/sites-enabled/default_docker
+      - ./conf.d/default:/etc/nginx/conf.d/nginx.conf
     ports:
       - 80:80
     networks:

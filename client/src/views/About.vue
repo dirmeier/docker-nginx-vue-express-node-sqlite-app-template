@@ -8,9 +8,16 @@
 import about from "@/components/About.vue";
 
 export default {
-  name: "About",
   components: {
     about
+  },
+  watch: {
+    title: {
+      immediate: true,
+      handler() {
+        document.title = "About";
+      }
+    }
   }
 };
 </script>
