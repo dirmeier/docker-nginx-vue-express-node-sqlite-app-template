@@ -1,0 +1,33 @@
+{
+  "name": "docker-nginx-vue-express-node-sqlite-app",
+  "author": "Simon Dirmeier",
+  "version": "0.1.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js",
+    "db": "node create_db.js -d db/collections.db"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "forever": "^2.0.0",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "yargs": "^15.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirmeier/docker-nginx-vue-express-node-sqlite-app.git"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dirmeier/docker-nginx-vue-express-node-sqlite-app/issues"
+  },
+  "homepage": "https://github.com/dirmeier/docker-nginx-vue-express-node-sqlite-app#README.md"
+}

@@ -1,0 +1,32 @@
+version: '3.1'
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    depends_on:
+      - webapp
+    volumes:
+      - ./conf.d/default_docker:/etc/nginx/sites-enabled/default_docker
+    ports:
+      - 80:80
+    networks:
+      - my-network
+  webapp:
+    build :
+      context: ./
+      dockerfile: Dockerfile
+    image: mywebapp:0.1.0
+    container_name: webapp
+    environment:
+      - WEB_APP=app.js
+    command: npm run start
+    networks:
+      my-network:
+        aliases:
+            - web-app
+    ports:
+      - 4000:4000
+
+
+networks:
+  my-network:
