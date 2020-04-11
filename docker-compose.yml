@@ -6,7 +6,7 @@ services:
     depends_on:
       - webapp
     volumes:
-      - ./conf.d/default:/etc/nginx/conf.d/nginx.conf
+      - ./conf.d/default:/etc/nginx/conf.d/default.conf
     ports:
       - 80:80
     networks:
@@ -15,7 +15,7 @@ services:
     build :
       context: ./
       dockerfile: Dockerfile
-    image: mywebapp:0.1.0
+    image: webapp:0.1.0
     container_name: webapp
     environment:
       - WEB_APP=app.js
