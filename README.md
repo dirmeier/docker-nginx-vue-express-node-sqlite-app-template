@@ -1,5 +1,6 @@
 # A docker-nginx-vue-express-node-sqlite webapp
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ae0083674e7c4db990dbcdcc04b8de3e)](https://app.codacy.com/manual/simon-dirmeier/docker-nginx-vue-express-node-sqlite-app?utm_source=github.com&utm_medium=referral&utm_content=dirmeier/docker-nginx-vue-express-node-sqlite-app&utm_campaign=Badge_Grade_Dashboard)
 [![Project Status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
 [![Build Status](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app.svg?branch=master)](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app)
 [![codecov](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app/branch/master/graph/badge.svg)](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app)
