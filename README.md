@@ -5,7 +5,7 @@
 [![codecov](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app/branch/master/graph/badge.svg)](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5c3353ab22d5469e8f7979513d608f1d)](https://www.codacy.com/manual/simon-dirmeier/docker-nginx-vue-express-node-sqlite-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dirmeier/docker-nginx-vue-express-node-sqlite-app&amp;utm_campaign=Badge_Grade)
 
-A template for web-apps
+> A template for web-apps
 
 ## About
 
