@@ -1,11 +1,11 @@
-# A docker-nginx-vue-express-node-sqlite webapp
+# docker-nginx-vue-express-node-sqlite-app-template
 
 [![Project Status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
 [![Build Status](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app.svg?branch=master)](https://travis-ci.org/dirmeier/docker-nginx-vue-express-node-sqlite-app)
 [![codecov](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app/branch/master/graph/badge.svg)](https://codecov.io/gh/dirmeier/docker-nginx-vue-express-node-sqlite-app)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5c3353ab22d5469e8f7979513d608f1d)](https://www.codacy.com/manual/simon-dirmeier/docker-nginx-vue-express-node-sqlite-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dirmeier/docker-nginx-vue-express-node-sqlite-app&amp;utm_campaign=Badge_Grade)
 
-A template for a web-app.
+A template for web-apps
 
 ## About
 
